@@ -1,0 +1,247 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					GENERAL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+body {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 940px;
+	padding: 0 5%;
+	margin: 0 auto;
+}
+
+.container p {
+	line-height: 1.7;
+}
+
+.center {
+	text-align: center;
+}
+
+.invisibleText {
+	font-weight: 1em;
+	color: #382B2A;
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	background-color: #E2E4DF;
+  	color: #E2E4DF;
+  	opacity: 0.5;
+ 	height: 1px;
+ 	border: 0px;
+ 	margin: 1em 0;
+ 	padding: 0;
+}
+
+.hrAfterInvisibleText {
+	display: block;
+}
+
+.marginZero {
+	margin-top: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					HEADING
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+div.logoBackground {
+	background: #382B2A url(../img/skaergoarden.jpg) no-repeat center center;
+	height: 100%; 
+	width: 100%; 
+}
+
+/*.roundDakrBackground {
+	background-color: #382B2A;
+	width: 245px;
+	height: 200px;
+	opacity: 0.8;
+	margin: 0px auto;
+	padding: 20px 0;
+	border-radius: 25px 25px 25px 25px;
+}*/
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	padding: 1em 0;
+}
+
+.h1 {
+	margin: 2em 0 0 0;
+}
+
+h3 {
+	margin-top: 1.3em;
+}
+
+h6 {
+	margin: 0;
+	display: inline-block;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					NAVIGATION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	margin: 22px;
+}
+
+/*Tried to make the nav look more static.*/
+/*nav a {
+	text-decoration: none;
+	padding: 2px 2px 0 2px;
+}*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					WEOLCOME
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.listIcon {
+	padding: 7px;
+	vertical-align: middle;
+}
+
+.listIconDark {
+	padding: 7px;
+	vertical-align: middle;
+/*	visibility: collapse;*/
+}
+
+/*.categories .listIcon a:hover {
+	visibility: collapse;
+}
+
+.categories .listIconDark a:hover {
+	visibility: visible;
+}*/
+
+
+.twitter img {
+	width: 20px;
+}
+
+.phone img {
+	height: 20px;
+}
+
+.twitter a {
+	color: #7D7673;
+}
+
+.phone a {
+	color: #7D7671;
+}
+
+ul.contact-info {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.contact-info li {
+	display: block;
+	width: 222px;
+	margin: 0;
+	padding: 1em;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					ENTRIES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.categories a {
+	display: inline;
+}
+
+img.smallPicture {
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid #E2E4DF;
+	border-radius: 100px;
+	margin: 1em;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					CATEGORIES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.categories {
+	list-style: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					FOOTER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+footer p {
+	margin: 3em 0 2em 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					COLORS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* site body */
+body {
+	background-color: #382B2A;
+	color: #E2E4DF;
+}
+
+/* nav links */
+nav a {
+	opacity: 0.5;
+	text-decoration: none;
+	color: #E2E4DF;
+}
+
+/* selected nav links */
+nav a:hover, nav a.selected {
+	background-color: #E2E4DF;
+	color: #382B2A;
+	opacity: 0.5;
+	padding: 2px 2px 0px 2px;
+}
+
+/* links */
+a {
+	text-decoration: none;
+	color: #C9C065;
+}
+
+/* content links */
+.container a:hover {
+	text-decoration: underline;
+}
+
+/* category links */
+.categories a {
+	color: #E2E4DF;
+	opacity: 0.5;
+	text-decoration: none;
+	margin: 1em;
+}
+
+.categories a:hover {
+	background-color: #E2E4DF;
+	color: #382B2A;
+	opacity: 0.5;
+	text-decoration: none;
+	padding: 2px 2px 0 2px;
+}

@@ -1,0 +1,49 @@
+@media screen and (min-width: 660px) {
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .cv {
+    text-align: center;
+    float: left;
+  }
+
+  .ct15 {
+    text-align: center;
+    float: left;
+  }
+
+  .cha {
+    text-align: center;
+    float: left;
+  }
+
+  .noTopMarginMinW660 {
+    margin-top: 0px;
+  }
+  
+  #gallery img {
+    width: 19%;
+    margin: 2.5%;
+  }
+}
+
+@media screen and (min-width: 727px) {
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .leftColumn {
+    width: 100%;
+    float: left;
+    display: inline-block;
+  }
+}

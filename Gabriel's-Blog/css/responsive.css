@@ -1,0 +1,33 @@
+@media screen and (min-width: 660px) {
+	
+	nav ul li {
+		display: inline-block;
+	}
+
+	.columnLeft {
+		display: inline-block;
+		float: left;
+		width: 47.5%;
+		margin-right: 2.5%;
+	}
+	
+	.columnRight {
+		display: inline-block;
+		float: left;
+		width: 47.5%;
+		margin-left: 2.5%;
+	}
+}
+
+@media screen and (min-width: 950px) {
+	
+	ul.contact-info {
+		text-align: center;
+	}
+	
+	ul.contact-info li {
+		display: inline-block;
+		margin: 0 auto;
+		padding: 22px;
+		text-align: center;
+}

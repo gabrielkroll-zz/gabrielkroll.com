@@ -1,0 +1,203 @@
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 660px) {
+  
+  /* ********************************
+    HEADER 
+  ******************************** */
+  
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125%em;
+    text-align: right;
+    width: 45%;
+    /*padding: 10px 0; */
+    margin: 0 5% 0 0;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  header {
+    border-bottom: 5px solid #8E44AD; 
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 1.60em;
+  }
+  
+  h2 {
+    font-size: 1.50em;
+    margin-bottom: 20px;
+  }
+
+  .noMargin {
+    margin: 0;
+  }
+  
+  /* ********************************
+  PAGE: Equality 
+  ******************************** */
+
+  .noTopMarginMinW660 {
+    margin-top: 0px;
+  }
+  
+  #gallery img {
+    width: 19%;
+    margin: 2.5%;
+  }
+    
+/*
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+*/
+}
+
+@media screen and (min-width: 727px) {
+  
+  /* ********************************
+    HEADER 
+  ******************************** */
+  
+/*  h1 {
+    font-size: 1.50em;
+  }
+  
+  h2 {
+    font-size: 1.50em;
+    margin-bottom: 20px;
+  }*/
+
+  /*h1 {
+    font-size: 1.75em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }*/
+  
+  /* ********************************
+    PAGE: CV 
+  ******************************** */
+  
+/*  .leftColumn {
+    width: 100%;
+    float: left;
+    display: inline-block;
+  }*/
+}
+
+@media screen and (min-width: 906px) {
+  
+  /* ********************************
+    Page: Equality 
+  ******************************** */
+  
+  .primary {
+    width: 40%;
+    float: left;
+  }
+  
+  .secondary {
+    width: 50%;
+    float: left;
+  }
+  
+  .special {
+    display: inline-block;
+  }
+
+
+
+/* ********************************
+  PAGE: DISCLAIMER
+******************************** */
+
+/*  .leftClmn {
+    width: 33.3333333%;
+    margin: 0;
+    float: left;
+  }
+
+  .middleClmn {
+    width: 33.3333333%;
+    margin: 0;
+    float: left;
+  }
+
+  .rightClmn {
+    width: 33.3333333%;
+    margin: 0;
+    float: left;
+  }*/
+  
+
+  
+  /* ********************************
+    PAGE: CV 
+  ******************************** */
+  
+  /*#montessoriPedagogHeaderSection {
+    max-width: 60%;
+    margin: auto;
+  }
+  
+  #montessoriPedagogHeaderSection h2 {
+    text-align: left;
+    margin: 15px 0 10px 0;
+  }
+  
+  #montessoriPedagogHeaderSection h4 {
+    text-align: left;
+  }
+    
+  #montessoriPedagogUlSection {
+    max-width: 60%;
+    margin: auto;
+  }
+  
+  .profile-photoSection {
+    width: 30%;
+    float: right;
+  }
+  
+  img.profile-photo {
+    max-width: 180px;
+    border-radius: 100%;*/
+/*
+    padding: 5px;
+    background-color: #8E44AD;
+*/
+/*    display: block;
+    margin: 18px auto;
+  }
+  
+  ul.profile-ul {
+    display: inline-block;
+    float: left;
+    padding-left: 22px;
+    margin: 5px 0 15px 0;
+  }
+  
+  .rightColumn {
+    width: 30%;
+    float: right;
+  }
+  
+  .leftColumn {
+    width: 60%;
+    float: left;
+  }*/
+}
+  
